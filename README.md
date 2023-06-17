@@ -1,2 +1,2 @@
 # tileTraccar
-python script to forward tile location to traccar server
+Python script to forward Tile device locations as to Traccar Server. Tiles must be added as a Traccar Client in Devices through the Traccar Server Web GUI. You can find the Tile device identifier/uniqueID printed to the terminal by running the tileTraccar.py script.
