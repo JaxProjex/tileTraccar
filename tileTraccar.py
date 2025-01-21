@@ -26,9 +26,9 @@ async def main() -> None:
             uuid = tile.uuid
             timestamp = tile.last_timestamp
             #print(name, lat, lon, alt, uuid, timestamp)
-            print("Tile: " + name + ", Traccar device identifier/uniqueID is: ">
+            print("Tile: " + name + ", Traccar device identifier/uniqueID is: " + uuid)
 
-            url = "http://{0}:5055/?id={1}&lat={2}&lon={3}&timestamp={4}&altitu>
+            url = "http://{0}:5055/?id={1}&lat={2}&lon={3}&timestamp={4}&altitude={5}".format(
             server_ip,
             uuid,
             lat,
